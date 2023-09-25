@@ -20,19 +20,23 @@
 
                 <form action="login.php" method="post">
                     <div class="campo">
-                        <label for="ilogin"><span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined">
                             person
                             </span>
-                        </label>
                         <input type="email" name="login" id="ilogin" placeholder="E-mail" required autocomplete="email" maxlength="30">
+                        <label for="ilogin">
+                            login
+                        </label>
                     </div>  
 
                     <div class="campo">
-                        <label for="isenha"><span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined">
                             key
-                            </span>
-                        </label>
+                        </span>
                         <input type="password" name="senha" id="isenha" placeholder="Senha" required autocomplete="current-password" minlength="8" maxlength="20">
+                        <label for="isenha">
+                            senha
+                        </label>
                     </div>
 
                         <input type="submit" value="Entrar">
